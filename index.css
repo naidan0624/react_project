@@ -1,0 +1,166 @@
+.website-big-container{
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+  height:75%;
+  text-align: center;
+  margin:0;
+  /* background-color: blue; */
+ 
+}  
+.website-header{
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px; 
+  font-style:italic;
+  height: 100px;
+  font-family: cursive;
+  color:rgb(179, 26, 103);
+  margin-top: 10px;
+  
+}
+.website-navigation-menu{
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly; 
+  align-items: center;
+  width:100vw;
+  height: 3%;
+  cursor:grab; 
+  padding-bottom: 30px;
+  padding-top: 20px;
+  
+}
+
+.website-image-slider{
+ position: relative;
+ height: 800px;
+ width: 100%;
+
+}
+
+.website-second-content{
+  display: flex;
+  height: 330px;   
+}
+.website-sign{
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-self: center;
+  height: 60px;
+  background-color: pink;
+  width: 100px;
+}
+
+.website-footer1{
+  background-color: rgb(215, 231, 245);
+  height:200px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size:20px;
+  color: rgb(93, 88, 88);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form, .social.website-map{
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+
+}
+
+.website-logo{
+  font-size: x-large;
+  display: flex;
+  width: 100px;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+.website-footer2{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(237, 209, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-service-info{
+  border:1px solid black;
+  width: 100%;
+  height: 800px;
+}
+.booking-container{
+display: flex;
+justify-content: center;
+width: 90%;
+
+
+}
+.booking-calendar{
+  border: 1px solid black ;
+  width: 90%;
+  /* height: 50px; */
+
+}
+.booking-time{
+  border:1px solid black ;
+  height: 80vw;
+  width: 100px;
+  background-color: aqua;
+}
+.booking-name{
+  border:1px solid black;
+  width: 100%;
+  height: 100px;
+  display:flex;
+}
+.booking-tech-name, .booking-tech-name1{
+  border:1px solid black ;
+  width:40vw;
+  height: 100px;
+  background-color: aqua;
+}
+.booking-table{
+
+  border:1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height:70%;
+  /* padding-top: 200px; */
+
+}
+.website-booking-buttons{
+ 
+  height:30px;
+  width: 50%;
+  background-color: rgb(244, 240, 240);
+
+}
+
+.onlinebooking-container{
+  display: flex;
+  padding-left: 250px;
+  flex-direction: column;
+  align-items: center;
+  border:1px, solid black;
+  width: 80%;
+  height: 800px;
+  
+}
+
+
+
+
+
+
+
